@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ansible:
+    build: .
+    stdin_open: true
+    tty: true    
+    volumes:
+       - ./hosts:/etc/ansible/hosts    
+       - ./playbooks:/app/playbooks    
