@@ -10,7 +10,7 @@ Open Shell Command Prompt
 
 Execute Example Playlist
 
-`ansible-playbook ./playbooks/hello.yml --connection=local`
+`ansible-playbook ./playbooks/hello.yaml --connection=local`
 
 # Disclaimer
 
